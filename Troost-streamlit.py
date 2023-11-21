@@ -37,7 +37,7 @@ def process_file(uploaded_file, start_date, end_date):
             st.write(f"Total for {day.date()}: {dagelijkse_som} , failures: {failures_totaal} , pintotaal: {dagelijks_totaal}")
 
 def main():
-    st.title("File Upload and Processing App")
+    st.title("Troost kassa tellen app")
 
     # Display a file uploader widget
     uploaded_file = st.file_uploader("Choose a file", type=["csv"])
